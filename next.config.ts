@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "media.discordapp.net",
+        hostname: "res.cloudinary.com",
+        pathname: "/dspkhqhkv/image/upload/**",
       },
     ],
   },
